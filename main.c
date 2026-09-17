@@ -31,9 +31,7 @@ void printResults(double *arr, int size, int arrNum) { // prints out the results
     double min = arrMin(arr, size);
     double range = arrRange(arr, size);
 
-    printf("Array %d:\n", arrNum);
-
-    printf("The array is: ");
+    printf("The array for Array %d is: ", arrNum);
     outputArray(arr, size); // this does the printing
     
     printf("The average is: %.2f\n", avg);
